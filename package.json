@@ -1,0 +1,17 @@
+{
+  "name": "wasm-tutorial",
+  "version": "0.1.0",
+  "description": "A sample wasm tutorial",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack --progress",
+    "serve": "http-server"
+  },
+  "author": "Sendil Kumar N",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "rust-wasm-loader": "^0.1.2",
+    "webpack": "^3.8.1"
+  }
+}
